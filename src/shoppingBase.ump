@@ -1,0 +1,27 @@
+class Customer
+{
+  1 -- * Account;
+    name;
+        ArrayList accountsInStock;
+  Double totalAccountSpent;
+  Integer information;
+}
+
+class Account
+{
+            accountName;
+  ArrayList ordersMade;
+  Double totalSpent;
+  Integer accountNumber;
+1 -- * Order;
+}
+
+class Order
+{
+      Integer items;
+        Double total;
+  Integer day;
+  Integer month;
+    Integer year;
+  Boolean payedFor;
+}
